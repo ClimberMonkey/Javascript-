@@ -1,6 +1,8 @@
 /* Java20- Javascript inlämning 1 
 av: Sandra Wahlgren*/
 
+"use strict"
+
 /*This is the constructor with 4 properties and 1 function. Create book-objects */
 function Books (name, topic, pages, ISBN){  
     this.name = name.toUpperCase();   /*Change title to all upper case */
